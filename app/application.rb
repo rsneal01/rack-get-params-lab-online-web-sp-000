@@ -28,7 +28,7 @@ class Application
             resp.write "added #{search_term}"
             @@items << search_term
           else
-            
+            resp.write 
       end
     else
       resp.write "Path Not Found"
